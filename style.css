@@ -5,7 +5,7 @@ body{
     background: #1e272e;
 }
 .box{
-     width: 300px;
+     width:400px;
      padding: 40px;
      position: absolute;
      top:50%;
@@ -57,4 +57,23 @@ body{
 .box input[type ="submit"]:hover{
     background: #079992;
 
+}
+
+.box input[type="text"]{
+    background-image: url(icons/envelope-alt.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 40px;
+    
+
+
+}
+.box input[type="password"]{
+    background-image: url(icons/lock-alt.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size:40px;
+}
+.container label{
+    color: #fff;
 }

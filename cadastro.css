@@ -1,0 +1,28 @@
+body{
+    background: #1e272e;
+  
+}
+.container{
+    width:850px;
+    height:500px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #191919;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+     margin: 70px;
+     background-color: black;
+     font-size: 40px;
+}
+
+.container input[type="text"]{
+
+   margin-right:400px;
+   margin-top: 100px;
+}
